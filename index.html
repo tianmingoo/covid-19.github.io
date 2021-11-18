@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>vue-covid19</title><style type=text/css>#Loading {
+        top:50%;
+        left:50%;
+        position: absolute;
+        -webkit-transform: translateY(-50%)  translateX(-50%);
+        transform: translateY(-50%)  translateX(-50%);
+        z-index:100;
+      }
+      @-webkit-keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75); }
+ 
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1); } }
+ 
+      @keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75); }
+ 
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1); } }
+ 
+      .ball-beat > div {
+        background-color:#4169e2;
+        width: 15px;
+        height: 15px;
+        border-radius: 100% !important;
+        margin: 2px;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: inline-block;
+        -webkit-animation: ball-beat 0.7s 0s infinite linear;
+        animation: ball-beat 0.7s 0s infinite linear; }
+      .ball-beat > div:nth-child(2n-1) {
+        -webkit-animation-delay: 0.35s !important;
+        animation-delay: 0.35s !important; }</style><link href=css/chunk-26be3724.4ce47651.css rel=prefetch><link href=css/chunk-2cac48c0.d762a2b9.css rel=prefetch><link href=css/chunk-7e816885.42f4df3e.css rel=prefetch><link href=css/chunk-9533d700.714ae410.css rel=prefetch><link href=css/chunk-acd2ee10.247cbf69.css rel=prefetch><link href=css/chunk-c9772abc.1ae0f0e3.css rel=prefetch><link href=js/chunk-26be3724.2dd88738.js rel=prefetch><link href=js/chunk-2cac48c0.eefd20ca.js rel=prefetch><link href=js/chunk-7e816885.c3f87f02.js rel=prefetch><link href=js/chunk-9533d700.9a44fe0e.js rel=prefetch><link href=js/chunk-acd2ee10.508731fb.js rel=prefetch><link href=js/chunk-c9772abc.6bb5d602.js rel=prefetch><link href=css/app.b1fc1a6c.css rel=preload as=style><link href=css/chunk-vendors.74ec3739.css rel=preload as=style><link href=js/app.0e6e0689.js rel=preload as=script><link href=js/chunk-vendors.f405a0f4.js rel=preload as=script><link href=css/chunk-vendors.74ec3739.css rel=stylesheet><link href=css/app.b1fc1a6c.css rel=stylesheet></head><body><noscript><strong>We're sorry but vue-covid19 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=Loading><div class="loader-inner ball-beat"><div></div><div></div><div></div></div></div><div id=app></div><script src=js/chunk-vendors.f405a0f4.js></script><script src=js/app.0e6e0689.js></script></body></html>
